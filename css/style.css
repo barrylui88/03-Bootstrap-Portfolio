@@ -1,3 +1,8 @@
+/* Add Hover Gray Background to all links */
+a:hover {
+    background-color: gray;
+}
+
 /* Jumbotron - Entire Div */
 .jumbotron {
   background-image: url("../images/bl-about-me-image.jpg");
@@ -22,12 +27,17 @@
 }
 
 /* About Section Container */
-.aboutContainer, .workContainer {
+.aboutContainer, .skillsContainer, .workContainer {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin-bottom: 20px;
+}
+
+/* Work Section */
+.card-title {
+    text-decoration: none !important;
 }
 
 /* Contact Section */
