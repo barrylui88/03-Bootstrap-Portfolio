@@ -1,3 +1,4 @@
+/* Jumbotron - Entire Div */
 .jumbotron {
   background-image: url("../images/bl-about-me-image.jpg");
   background-repeat: no-repeat;
@@ -5,11 +6,42 @@
   background-size: cover;
 }
 
-.jbttext {
-    color: white;;
+/* Jumbotron - Container */
+.jumbotron .row .container {
+    height: 40vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.mb-3 {
-    margin-left: 20px;
-    margin-right: 20px;
+/* Text within Jumbotron */
+.jbttext {
+    color: white;
+    text-align: center;
+}
+
+/* About Section Container */
+.aboutContainer, .workContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+#contactSectionStart {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contact Section - Header Text */
+#contactSectionStart h2 {
+    margin-right: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }

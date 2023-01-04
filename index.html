@@ -1,66 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- Head Section -->
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barry Lui | Bootstrap Portfolio</title>
-    <!-- Bootstrap CSS Link -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barry Lui | Bootstrap Portfolio</title>
+  <!-- Bootstrap CSS Link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
+
+<!-- Body Section -->
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Barry Lui</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">Work</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Barry Lui</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutSectionStart">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#workSectionStart">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contactSectionStart">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container jbttext" style="height: 40vh;">
-          <h1 class="display-4 jbttext">Hi, I'm Barry. Welcome to my page!</h1>
-          <p class="lead jbttext">Feel free to have a browse around my portfolio below.</p>
-        </div>
+  <!-- Jumbotron -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="row">
+      <div class="container">
+        <h1 class="display-4 jbttext">Hi, I'm Barry. Welcome to my page!</h1>
+        <p class="lead jbttext">Feel free to have a browse around my portfolio below.</p>
       </div>
+    </div>
+  </div>
 
-      <div class="card mb-3">
-        <img src="./images/02-portfolio-1.jpg" class="card-img-top" style="height: 30vh;" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-        </div>
+  <!-- About Section -->
+  <section class="row" id="aboutSectionStart">
+    <div class="container-fluid aboutContainer">
+      <h2>About Me</h2>
+      <ul>
+        <li>
+          Born in London, United Kingdom and lived here ever since!
+        </li>
+        <li>
+          I have been married to my lovely wife Mina for over 3 years and we have a cat named Daphne.
+        </li>
+        <li>
+          By day, I work as an Enterprise Technology Consultant at Deloitte, helping large companies to build, configure, test and implement their systems.
+        </li>
+        <li>
+          By night, I'm a student learning a new skill to build webpages and web apps!
+        </li>
+        <li>
+          By very late night, I enjoy gaming, cooking, photo and video editing.
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Work Section -->
+  <section class="row" id="workSectionStart">
+    <div class="container-fluid workContainer">
+      <h2>Work</h2>
+      <p>
+        As part of this course, I'll be developing different webpages as part of the challenges and projects. I'll be adding to this space over time so keep an eye here!
+      </p>
+    </div>
+  </section>
+
+  <!-- Cards -->
+  <div class="row">
+    <div class="card mb-3 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+      <img src="./images/02-portfolio-1.jpg" class="card-img-top" style="height: 30vh;" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">LED Wall</h5>
       </div>
+    </div>
 
-      <div class="card mb-3">
-        <img src="./images/02-portfolio-2.jpg" class="card-img-top" style="height: 30vh;" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-        </div>
+    <div class="card mb-3 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+      <img src="./images/02-portfolio-2.jpg" class="card-img-top" style="height: 30vh;" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Calculator</h5>
       </div>
+    </div>
 
-      <div class="card mb-3">
-        <img src="./images/02-portfolio-3.jpg" class="card-img-top" style="height: 30vh;" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-        </div>
+    <div class="card mb-3 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+      <img src="./images/02-portfolio-3.jpg" class="card-img-top" style="height: 30vh;" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pastel Puzzles</h5>
       </div>
+    </div>
 
-    <!-- Bootstrap JS/Popper Links -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <div class="card mb-3 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+      <img src="./images/02-portfolio-4.jpg" class="card-img-top" style="height: 30vh;" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Surf Report</h5>
+      </div>
+    </div>
+
+    <div class="card mb-3 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+      <img src="./images/02-run-buddy.jpg" class="card-img-top" style="height: 30vh;" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Run Buddy</h5>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <ul class="nav justify-content-center" id="contactSectionStart">
+    <h2>Contact</h2>
+    <li class="nav-item">
+      <a class="nav-link" href="https://www.linkedin.com/in/barrylui">LinkedIn</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="mailto:barryclui@gmail.com">Email</a>
+    </li>
+  </ul>
+
+  <!-- Bootstrap JS/Popper Links -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
 </body>
+
 </html>
