@@ -1,6 +1,7 @@
 /* Add Hover Gray Background to all links */
 a:hover {
     background-color: gray;
+    text-decoration: none;
 }
 
 /* Jumbotron - Entire Div */
@@ -36,8 +37,8 @@ a:hover {
 }
 
 /* Work Section */
-.card-title {
-    text-decoration: none !important;
+.card-title, .card-text {
+    color: black;
 }
 
 /* Contact Section */
