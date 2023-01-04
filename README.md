@@ -20,10 +20,10 @@ No installation is required - simply follow the URLs I have included above.
 
 ## Screenshots
 
-###### Full Webpage Screenshot
+### Full Webpage Screenshot
 ![Full Screenshot of Normal Webpage](./images/full-webpage-screenshot.png)
 
-###### Narrow Webpage Screenshot
+### Narrow Webpage Screenshot
 ![Full Screenshot of Narrow Webpage](./images/narrow-webpage-screenshot.png)
 
 ## License
