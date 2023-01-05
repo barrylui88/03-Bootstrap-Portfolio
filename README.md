@@ -9,9 +9,9 @@ Following this task, I've massively enhanced my skills to utilise the Bootstrap 
 The greatest challenge I had to overcome when building this page was customising the Bootstrap components. In a way, this was slightly harder than building your own components from scratch as I wasn't always sure what was customisable.
 
 ### Useful Links
-[GitHub Repository: Bootstrap-Portfolio](https://github.com/barrylui88/Bootstrap-Portfolio)
+[GitHub Repository: Bootstrap-Portfolio](https://github.com/barrylui88/Bootstrap-Portfolio/)
 
-[Deployed Page (powered by GitHub Pages)](https://barrylui88.github.io/Bootstrap-Portfolio//)
+[Deployed Page (powered by GitHub Pages)](https://barrylui88.github.io/Bootstrap-Portfolio/)
 
 ## Installation
 
