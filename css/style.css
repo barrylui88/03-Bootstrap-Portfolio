@@ -27,13 +27,19 @@ a:hover {
     text-align: center;
 }
 
-/* About Section Container */
+/* About/Skills/Work Section Container */
 .aboutContainer, .skillsContainer, .workContainer {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     flex-direction: column;
     margin-bottom: 20px;
+    padding-left: 40px;
+}
+
+/* Add Hover Gray Background to the full card body */
+.card:hover {
+    background-color: gray;
 }
 
 /* Work Section */
